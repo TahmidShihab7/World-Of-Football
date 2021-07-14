@@ -150,13 +150,9 @@ nav a {
 .live h1 span {
   color: red;
 }
-.live-button {
-  margin-left: 100px;
-  border-radius: 22px;
+
 }
-.hl {
-  text-decoration: none;
-}
+
 /* Score */
 .score {
   display: flex;
@@ -171,7 +167,36 @@ nav a {
   font-size: 80px;
   color: #e02c6d;
 }
-
+.stream {
+  background-color: crimson;
+  font-weight: 700;
+  border-radius: 10px;
+  width: 70px;
+  /* margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  height: 50px; */
+   margin-top: 50px;
+  margin-bottom: 48.5px;
+  margin-left: 5px;
+  height: 25px;
+}
+.highlights
+{
+  background-color: rgb(11, 88, 233);
+  color: whitesmoke;
+  font-weight: 700;
+  border-radius: 10px;
+  width: 86px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  height: 28px;
+}
+.hl {
+  text-decoration: none;
+   color: whitesmoke;
+}
 /* Footer */
 footer {
   display: flex;
@@ -201,10 +226,7 @@ footer div img {
   font-weight: 400;
 }
 
-/* -------------- */
-/* Animation Zone */
-/* -------------- */
-
+/* Designing */
 /* Banner */
 .top-right:hover img {
   margin-top: 20px;
@@ -214,9 +236,7 @@ footer div img {
   transition: 1s linear;
 }
 
-/* -------------------------- */
-/* Responsive for Device Zone */
-/* -------------------------- */
+/* Making it bResponsive */
 
 /* Mobile */
 @media (max-width: 688px) {
@@ -228,4 +248,7 @@ footer div img {
   .players-section {
     grid-template-columns: repeat(1, 1fr);
   }
+  /* .live{
+     grid-template-columns: repeat(1, 1fr);
+  } */
 }
